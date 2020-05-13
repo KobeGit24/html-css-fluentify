@@ -11,6 +11,8 @@
 
 .clearfix {
   padding-bottom: 30px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .clearfix::after {
@@ -21,7 +23,7 @@
 
 .navigator {
   float: left;
-  width: calc(100%/3);
+  width: calc(100%/3 - 20px);
   padding: 20px
 }
 
@@ -37,7 +39,7 @@ ul > li{
   width: calc(100%/4 - 20px);
   padding: 10px;
   color: #fff;
-  font-size: 20px;
+  font-size: 10px;
   text-transform: uppercase;
   border-right: 1px solid #fff;
 }
@@ -49,10 +51,13 @@ ul > li{
   color: #fff;
 }
 
+.login > button {
+}
+
 .logo {
   float: left;
   width: calc(100%/3);
-  padding: 20px 50px;
+  padding: 20px 100px;
 
 }
 
