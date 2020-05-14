@@ -10,8 +10,7 @@
 }
 
 .clearfix {
-  padding-bottom: 30px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -21,45 +20,70 @@
   clear: both;
 }
 
-.navigator {
+.logo {
+  margin-top: 30px;
   float: left;
-  width: calc(100%/3 - 20px);
-  padding: 20px
+  width: 10%;
 }
 
-nav::after {
+.navigator {
+  float: left;
+  width: 60%;
+}
+
+.navbar::after {
   content: "";
   display: table;
   clear: both;
 }
 
+.navbar {
+  text-align: center;
+}
+
 li {
   list-style: none;
   float: left;
-  width: calc(100%/4 - 20px);
-  padding: 30px;
+  padding: 0 30px;
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
-  margin: 0 auto;
+  margin-top: 45px;
 }
 
-.login {
+.signin {
   float: left;
-  width: calc(100%/3);
-  padding: 20px;
+  width: 30%;
   color: #fff;
+  text-transform: uppercase;
 }
 
-.login > button {
+.login  {
+  padding: 10px;
+  border-radius: 5%;
+  margin: 30px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #fff;
+  background-color: transparent;
 }
 
-.logo {
-  float: left;
-  width: calc(100%/3);
-  padding: 20px 100px;
-
+.plane {
+  padding: 5px;
+  border-radius: 5%;
+  color: white;
+  font-size: 12px;
+  border: none;
+  background-color: green;
 }
+
+
+.login, .plane:hover {
+  cursor: pointer;
+}
+
+/* seconda parte header  */
+
 
 .down-header {
   height: 70%;
