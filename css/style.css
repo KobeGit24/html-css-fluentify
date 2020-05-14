@@ -12,6 +12,7 @@
 .clearfix {
   width: 80%;
   margin: 0 auto;
+  padding-bottom: 5%;
 }
 
 .clearfix::after {
@@ -96,7 +97,7 @@ li {
   color: #fff;
   font-size: 30px;
   text-shadow: 2px 2px #000;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 .title > button {
@@ -116,12 +117,16 @@ li {
 .jumbo {
   position: relative;
   background-image: url(../img/fluentify-jumbo.png);
-  background-position: center;
+  background-position: right bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
 }
+
+
+/* inizio terza parte header  */
+
 
 .banner {
   background-color: lightgrey;
@@ -148,6 +153,8 @@ h5 {
   padding: 10px;
 }
 
+/* inizio main  */
+
 main {
   padding-top: 40px;
 }
@@ -163,7 +170,7 @@ main {
   clear: both;
 }
 
-section {
+.section {
   float:left;
   width: calc(100%/3);
   text-align: center;
@@ -191,14 +198,16 @@ h3 {
 .photo {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+  background-size: 100% 100%;
+  height: 200px;
   padding: 30px;
 }
 
-section > p {
+.section > p {
   padding: 30px;
 }
+
+/* inizio seconda parte del main */
 
 .secondmain {
   padding: 30px 50px;
@@ -215,7 +224,7 @@ section > p {
   background-image: url(../img/fluentify-scopri.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 300px;
   padding: 30px;
   width: 60%;
@@ -229,6 +238,11 @@ section > p {
 .scoprititle > a {
   padding: 30px;
   margin-top: 30px;
+}
+
+h4 {
+  font-size: 25px;
+  padding: 20px 20px 20px 0px;
 }
 
 .footercontainer {
